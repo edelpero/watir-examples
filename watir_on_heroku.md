@@ -44,6 +44,6 @@ $ heroku run bash
 Within the bash shell, invoke the PhantomJS executable to ensure that it runs:
 
 ```bash
-$ vendor/phantomjs/bin/phantomjs —version
+$ vendor/phantomjs/bin/phantomjs --version
 ```
 Good to go!  Now you’re ready to call PhantomJS from your Ruby code.
